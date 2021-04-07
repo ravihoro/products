@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:products/views/home_view.dart';
 import 'package:provider/provider.dart';
-import './app/locator.dart';
+//import './app/locator.dart';
 import './viewmodel/base_model.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
-  setupLocator();
+  //setupLocator();
   runApp(
     MyApp(),
   );
